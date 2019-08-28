@@ -1,0 +1,34 @@
+import time
+
+
+print("########################")
+print("Developer: Joe Pobega")
+time.sleep(2)
+print("Started developing on Aug. 26th, 2019")
+time.sleep(2)
+print("Program Name: Alien (RPG)")
+time.sleep(2)
+print("########################\n")
+
+time.sleep(2)
+print("You are taken hostage by rogue aliens that put you in the starship for harvesting.")
+time.sleep(5)
+print("Objective: Find a way out.\n")
+time.sleep(3)
+print("you are looking around the room when you come across two items.")
+choice = input("do you want to: Take the harvesting tool.(A) Take the surgical flashlight(B) [A/B]? : \n")
+if choice == "A":
+        print("You chose the harvesting tool and advance forward.\n")
+
+elif choice == "B":
+        print("You take the flashlight and advance forward.")
+
+print("As you are walking out of the room, you begin to hear")
+print("weird, unknown noises coming from a nearby room.")
+
+choice = input("do you wish to near the noises?(A) keep walking past?(B) [A/B]? : \n")
+
+if choice == "A":
+        print(" You walk into the room. You see a lifeform shake in startlement")
+
+print("as you may have surprised the alien figure")
